@@ -1,0 +1,100 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu__item{
+  font: 600 15px/18.29px 'montserrat', arial, helvetica, sans-serif ;
+}
+
+.side-menu__item{
+  font: 600 15px/18.29px 'montserrat', arial, helvetica, sans-serif ;
+}
+
+.first-section__title{
+  font: 600 90px/109.71px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__subtitle{
+  font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__info{
+  display: flex;
+  justify-content: center;
+}
+
+.first-section__characteristics{
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-section__buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+h5{
+  font: 600 35px/42.67px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.title-small{
+  font: 600 20px/24.38px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.characteristics__subtitle{
+  font: 400 12px/14.63px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.test-drive__text{
+  font: 700 13px/14.63px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__order{
+  font: 700 13px/14.63px 'montserrat', arial, helvetica, sans-serif;
+}
+.second-section__image-title{
+  font: 600 70px/85.33px 'montserrat', arial, helvetica, sans-serif;
+}
+h3{
+  font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.second-section__subtitle{
+  font: 500 18px/18.29px 'montserrat', arial, helvetica, sans-serif;
+}
+
+h4{
+  font: 600 20px/17.55px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.third-section__subtitle{
+  font: 500 18px/18.29px 'montserrat', arial, helvetica, sans-serif;
+}
+
+h2{
+  font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.safety__text{
+  font: 700 17px/20.72px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.shield__title{
+  font: 600 50px/60.95px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.shield__subtitle{
+  font: 600 25px/30.48px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.third-section__learn-text{
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.third-section__order{
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.third-section__image-title{
+  font: 600 200px/243.8px 'montserrat', arial, helvetica, sans-serif;
+}
