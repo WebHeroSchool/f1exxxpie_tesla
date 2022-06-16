@@ -736,6 +736,7 @@ h2{
   .third-section__image{
     width: 60%;
 
+
   }
 
   .third-section__image-title{
@@ -747,7 +748,7 @@ h2{
   .third-section__image-photo{
     position:relative;
     width:100%;
-    height:80%;
+    height:70%;
     background: url('img/car-safety1440.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -882,8 +883,6 @@ h2{
   .range__subtitle{
     margin-top: 1px;
   }
-
-
 
 
   .first-section__buttons{
