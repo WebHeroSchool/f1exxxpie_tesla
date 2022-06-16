@@ -1,0 +1,1292 @@
+
+body{
+  margin:auto;
+  max-width: 1920px;
+  min-width: 768px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:24px 0 24px 0;
+  margin: 0 3% 0 3%
+}
+
+.logo{
+  width:166px;
+  height:51px;
+  background: url('img/logo-full.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 2.9%;
+}
+
+.main-menu{
+  width:492px;
+  padding-top: 17px;
+}
+
+.side-menu{
+  display: flex;
+  justify-content: space-between;
+  width:204px;
+  padding-top: 17px;
+  margin-right: 1.2%;
+}
+
+.burger{
+  background:url('img/burger.svg');
+  width:24px;
+  height:15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 1px;
+}
+
+.side-menu__item{
+  margin-right:30px;
+}
+.main-menu__item{
+  font: 600 15px/18.29px 'montserrat', arial, helvetica, sans-serif ;
+}
+.first{
+  margin-right: 59.5px;
+  color: #E51937;
+}
+.first::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width:60px;
+  height:2px;
+  background: url('img/line.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 5px;
+}
+
+.second{
+  margin-right:21.18px;
+}
+
+.third{
+  margin-right: 40.5px;
+}
+.fourth{
+  margin-right: 42px;
+}
+
+.side-menu__item{
+  font: 600 15px/18.29px 'montserrat', arial, helvetica, sans-serif ;
+}
+
+.first-section__title{
+  display: flex;
+  font: 600 90px/109.71px 'montserrat', arial, helvetica, sans-serif;
+  height: 100px;
+  justify-content: center;
+  margin: 34px 0 0 0;
+}
+
+.first-section__subtitle{
+  display: flex;
+  justify-content: center;
+  margin: 1px 0 0 0;
+  font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__background{
+  display: flex;
+  width: 100%;
+  height:450px;
+  justify-content: center;
+}
+
+.first-section__image{
+  background: url('img/logo+car1440.png');
+  width:1514px;
+  height:594px;
+  background-size: contain;
+  position: relative;
+  top:-120px;
+  background-repeat: no-repeat;
+}
+
+.first-section__info{
+  width:55.8%;
+  height:58px;
+  margin:52px auto 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.first-section__characteristics{
+  display: flex;
+  width:50%;
+  justify-content: space-between;
+
+}
+
+.speed{
+  width:45%;
+  display: flex;
+
+  align-items: center;
+}
+
+.speed__icon{
+  width:53px;
+  height: 42px;
+  margin: 9px 10px 0 0;
+  background: url('img/speed.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.speed__text{
+margin: 0;
+}
+.speed__title{
+  margin: 0;
+  height:41px;
+}
+
+.speed__subtitle{
+  margin: 0;
+}
+
+.range{
+  width:42.5%;
+  display: flex;
+  align-items: center;
+}
+
+.range__icon{
+  width:46px;
+  height: 58px;
+  margin: 15px 2px 0 0;
+  background: url('img/road.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.range__text{
+margin: 0;
+}
+
+h5{
+  font: 600 35px/42.67px 'montserrat', arial, helvetica, sans-serif;
+}
+
+
+.range__title{
+  margin: 0px 0 0 0;
+  height: 41px
+
+}
+
+.title-small{
+  font: 600 20px/24.38px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.characteristics__subtitle{
+  font: 400 12px/14.63px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.range__subtitle{
+  margin: 0;
+  height:18px;
+}
+
+.first-section__buttons{
+  display: flex;
+  width:40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-drive{
+  width:50%;
+  display: flex;
+  height: 22px;
+  align-items: center;
+}
+
+.wheel{
+  width: 22px;
+  height:22px;
+  margin: 3px 8px 0 0;
+  background: url('img/wheel.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.test-drive__text{
+  margin: 5px 0 0 0;
+  font: 700 13px/14.63px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__order{
+  text-decoration: none;
+  width:50.5%;
+  height:40px;
+  border-radius: 0;
+  border: 2px solid #E51937;
+  margin: 2px 2px 0 0;
+  color: #E51937;
+  background: none;
+  font:700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.first-section__arrow{
+  width: 34px;
+  height:24px;
+  margin: 34px auto 0 auto;
+  background: url('img/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  font: 700 13px/14.63px 'montserrat', arial, helvetica, sans-serif;
+
+}
+
+.second-section{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  margin: 30px auto 0 auto;
+  flex-direction: row;
+}
+
+.second-section__image{
+  width:69.5%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.second-section__image-title{
+  width:288px;
+  height:86px;
+  margin: 0;
+  font: 600 70px/85.33px 'montserrat', arial, helvetica, sans-serif;
+  color: #E51937;
+  z-index: 2;
+  margin: 6.3% auto 0 8%;
+  position: relative;
+
+
+}
+
+.second-section__image-photo{
+  width:100%;
+  height: 700px;
+  background: url('img/car-inside1440.png');
+  background-size: cover;
+  z-index: 1;
+  margin: 51px auto 0px 0px;
+  display: flex;
+}
+
+.second-section__info{
+  width:30.5%;;
+  height: 900px;
+  background-color: #E51937;
+  z-index: 3;
+}
+
+.second-section__wrapper{
+  width:77%;
+  margin: auto;
+}
+
+h3{
+  font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.second-section__title{
+  margin: 51px 0 0 0;
+  color: white;
+}
+.second-section__subtitle{
+  font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+  margin: 11px auto 0 0;
+  width:90%;
+  color: white;
+}
+
+.second-section__characteristics{
+  width:80%;
+  margin:20.5% 0 0 0;
+  height:256px;
+
+}
+
+.screen{
+  width:189px;
+  height:55px;
+  display: flex;
+}
+.screen__text{
+  margin-left:
+}
+.screen__logo{
+  width:35px;
+  height:53px;
+  background: url('img/screen.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+
+.screen__title{
+  margin:0;
+  line-height: 22px;
+  color: white;
+}
+
+.screen__title-inch{
+  margin-left: 5px;
+  color: white;
+}
+.screen__subtitle{
+  margin:0;
+  line-height: 19px;
+  color: white;
+}
+
+.wifi{
+  margin: 37px 0 0 0px;
+  width: 232px;
+  height: 64px;
+  display: flex;
+}
+
+.wifi__logo{
+  width:44px;
+  height:34px;
+  margin: 14px 21px 0px -4px;
+  background: url('img/wifi.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wifi__text{
+  width:173px;
+}
+.wifi__title{
+  margin:0;
+  color: white;
+}
+.wifi__subtitle{
+  margin-top:4px;
+  color: white;
+}
+
+.battery{
+  margin: 43px 0 0 0px;
+  width: 225px;
+  height: 59px;
+  display: flex;
+}
+
+.battery__logo{
+  width:38px;
+  height:52px;
+  background: url('img/battery.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 25px;
+}
+.battery__text{
+  width:173px;
+}
+.battery__title{
+  margin:0;
+  color: white;
+  line-height: 18px;
+}
+.battery__title-liters{
+  margin-left: 5px;
+}
+.battery__subtitle{
+  margin-top:2px;
+  color: white;
+}
+
+.second-section__buttons{
+  margin: 39% auto 0 auto;
+  display: flex;
+  width:78%;
+  height:40px;
+  justify-content: space-between;
+}
+
+.second-section__learn{
+  width:50%;
+  display: flex;
+}
+
+.second-section__learn-logo{
+  width:22px;
+  height:22px;
+  background: url('img/learn.svg');
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.second-section__learn-text{
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+  color: white;
+}
+
+.second-section__order{
+  width:47%;
+  margin-right: -5px;
+  border: 2px solid #FFFFFF;
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+  background-color: #E51937;
+  color:white
+}
+
+h4{
+  font: 600 20px/17.55px 'montserrat', arial, helvetica, sans-serif;
+}
+.third-section{
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.third-section__info{
+  width:30.5%;
+  height: 900px;
+  background-color: #E51937;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-section__wrapper{
+  width:75%;
+  margin: 0px auto 0 auto;
+}
+
+.third-section__title{
+  margin: 15% 0 0 0;
+  color: white;
+}
+
+.third-section__subtitle{
+  font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+  color: white;
+}
+
+h2{
+  font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.safety__title{
+  margin: 16% 0 0 0;
+  color:white;
+}
+
+.safety__text{
+  font: 700 17px 'montserrat', arial, helvetica, sans-serif;
+  color: white;
+}
+
+
+.safety__characteristics{
+  width: 100%;
+  height: 200px;
+  margin: 9% 0 0 0;
+}
+
+.front{
+  width: 100%;
+  height: 25px;
+  margin: 13px 0 0 0;
+  display: flex;
+}
+
+.front__text{
+  margin: 0 62px 0 0;
+}
+.front__stars{
+  width:145px;
+  height:25px;
+  margin: 0;
+  display: flex;
+}
+
+.star{
+  width:25px;
+  height:25px;
+  background: url('img/star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 4px;
+}
+
+.side{
+  width: 100%;
+  height: 25px;
+  margin: 11px 0 0 0;
+  display: flex;
+}
+
+.side__text{
+  margin: 2px 87px 0 0;
+}
+
+.side__stars{
+  width:145px;
+  height:25px;
+  margin: 0;
+  display: flex;
+}
+
+.side-stand{
+  width: 100%;
+  height: 25px;
+  margin: 12px 0 0 0;
+  display: flex;
+}
+
+.side-stand__text{
+  margin: 2px 31px 0 0;
+  width: 120px;
+}
+
+.side-stand__text-stand{
+  font: 700 10px/12.19px 'montserrat', arial, helvetica, sans-serif;
+}
+
+.side-stand__stars{
+  width:145px;
+  height:25px;
+  margin: 0;
+  display: flex;
+}
+.driver{
+  width: 100%;
+  height: 25px;
+  margin: 12px 0 0 0;
+  display: flex;
+}
+
+.driver__text{
+  margin: 2px 48px 0 0;
+}
+
+
+.driver__stars{
+  width:145px;
+  height:25px;
+  margin: 0;
+  display: flex;
+}
+
+.passenger{
+  width: 100%;
+  height: 25px;
+  margin: 12px 0 0 0;
+  display: flex;
+}
+
+.passenger__text{
+  margin: 2px 42px 0 0;
+}
+
+
+.passenger__stars{
+  width:145px;
+  height:25px;
+  margin: 0;
+  display: flex;
+}
+
+.third-section__shield{
+  width: 291px;
+  height:75px;
+  margin: 81px 0px 0px 0px;
+  display: flex;
+
+}
+
+.shield__logo{
+  width:62px;
+  height:74px;
+  background: url('img/shield.svg');
+  margin: 0px 24px 0 10px;
+}
+
+.shield__text{
+  width:195px;
+  color: white;
+}
+
+.shield__title{
+  font: 600 50px/44px  'montserrat', arial, helvetica, sans-serif;
+  margin: 0;
+
+}
+
+.shield__subtitle{
+  font: 600 25px/31px 'montserrat', arial, helvetica, sans-serif;
+  margin: 0;
+}
+
+.third-section__buttons{
+  width:79%;
+  height:40px;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 13.5% 12.5% 0 8.5%;;
+}
+
+.third-section__learn{
+  width:50%;
+  display:flex;
+}
+.third-section__learn-logo{
+  width: 22px;
+  height: 22px;
+  background: url('img/learn.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 8px 9px 0 0;
+
+}
+.third-section__learn-text{
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+  color: white;
+}
+
+.third-section__order{
+  font: 700 13px/15.85px 'montserrat', arial, helvetica, sans-serif;
+  width: 46.5%;
+  background-color:#E51937;
+  color: white;
+  border-radius: 0;
+  border: 2px solid white;
+}
+
+.third-section__image{
+  width: 69.5%;
+  height: 900px;
+
+}
+
+.third-section__image-title{
+  font: 600 200px/200px 'montserrat', arial, helvetica, sans-serif;
+  margin: 122px 0px 0px auto;
+  padding: 0;
+  position: relative;
+  right:0px;
+  width:821px;
+  height: 269px;
+  color:#E51937;
+  opacity: 0.1;
+  z-index: 3;
+}
+
+.third-section__image-photo{
+  position:relative;
+  width:105%;
+  height:80%;
+  background: url('img/car-safety1440.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 4;
+  right: 95px;
+  top: -221px;
+
+}
+@media screen and (max-width:1439px){
+  .first-section__info{
+    width:70%;
+  }
+
+  .second-section{
+
+
+  }
+
+  .second-section__image{
+    justify-content: space-between;
+  }
+
+  .second-section__info{
+    width: 440px;
+  }
+
+  .third-section{
+    display: flex;
+  }
+
+  .third-section__info{
+    width: 440px;
+  }
+
+  .third-section__image{
+    width: 60%;
+
+  }
+
+  .third-section__image-title{
+    font: 600 160px/200px 'montserrat', arial, helvetica, sans-serif;
+    width: 657px;
+    height: 269px;
+  }
+
+  .third-section__image-photo{
+    position:relative;
+    width:100%;
+    height:80%;
+    background: url('img/car-safety1440.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    right: 0px;
+    top: -154px;
+
+  }
+
+
+
+  .
+}
+
+
+@media screen and (max-width:1100px){
+
+  .header{
+    margin: 0 2% 0 2%;
+  }
+
+
+  .main-menu{
+    display: none;
+  }
+
+  .side-menu{
+    width:35.23px;
+    height:22.02px;
+    margin: 13px 2.4% 0 0;
+    padding:0;
+  }
+
+  .side-menu__item{
+    display: none;
+  }
+  .burger{
+    width:100%;
+    height: 100%;
+  }
+
+  .first-section__title{
+    margin: 56px 0 0 0;
+  }
+
+  .first-section__background{
+    display: flex;
+    width: 100%;
+    height:450px;
+    justify-content: center;
+  }
+
+  .first-section__image{
+    background: url('img/logo+car768.png');
+    width:821.81px;
+    height:437.06px;
+    background-size: cover;
+    position: relative;
+    top:-23px;
+    background-repeat: no-repeat;
+  }
+
+  .first-section__info{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px auto 0 auto;
+    height: 181px;
+
+  }
+  .first-section__characteristics{
+    display: flex;
+    width:100%;
+    height:40%;
+    align-items: flex-start;
+  }
+  .speed{
+    display: flex;
+    align-items: flex-start;
+  }
+  .speed__icon{
+    width: 76px;
+    height: 64px;
+    margin: 4px 16px 0 0;
+  }
+  .speed__text{
+    display: flex;
+    flex-direction: column;
+  }
+  .speed__title{
+    font-size: 50px;
+    line-height: 30px;
+    display: flex;
+    margin-top: 3px;
+  }
+
+  .speed__title-sec{
+    margin: 6px 0 auto 10px;
+  }
+
+  .speed__subtitle{
+    margin-top: 3px;
+  }
+  .range{
+    display: flex;
+    align-items: flex-start;
+  }
+  .range__icon{
+    width: 61px;
+    height: 73px;
+    margin: -3px 0px 0 4px;
+    background: url('img/road768.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .range__text{
+    display: flex;
+    flex-direction: column;
+  }
+  .range__title{
+    font-size: 50px;
+    line-height: 26px;
+    display: flex;
+    margin-top: 3px;
+  }
+
+  .range__title-km{
+    margin:5px 0 auto 10px;
+  }
+
+  .range__subtitle{
+    margin-top: 1px;
+  }
+
+
+
+
+  .first-section__buttons{
+    width:84%;
+    height: 32%;
+    margin: 0 auto 0 auto;
+  }
+
+  .wheel{
+    width: 32px;
+    height:36px;
+    margin: 3px 8px 0 0;
+    background: url('img/wheel-red.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .test-drive__text{
+    margin: 2px 0 auto 8px;
+    font: 700 16px/19.5px 'montserrat', arial, helvetica, sans-serif;
+    color: #E51937;
+
+  }
+
+  .first-section__order{
+    width:55.5%;
+    height:95%;
+    text-decoration: none;
+    border-radius: 0;
+    margin: 0px 0.5px 0 0;
+    color: white;
+    background: #E51937;
+    font:700 16px/19.5px 'montserrat', arial, helvetica, sans-serif;
+
+  }
+
+  .first-section__arrow{
+    margin-top: 59px;
+  }
+
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    height:1014px;
+  }
+  .second-section__info{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:487.21px;
+
+  }
+
+  .second-section__image{
+    width: 100%;
+    height: 527px;
+    background-size: contain;
+      margin-top: 0px;
+  }
+
+  .second-section__image-title{
+    width:288px;
+    height:86px;
+    margin: 0;
+    font: 600 70px/85.33px 'montserrat', arial, helvetica, sans-serif;
+    color: #E51937;
+    z-index: 2;
+    margin: 4.5% 6% 0 auto;
+    position: relative;
+
+
+  }
+
+  .second-section__image-photo{
+    width:100%;
+    height: 700px;
+    background: url('img/car-inside768.png');
+    background-size: cover;
+    z-index: 1;
+    margin: -95px auto 0px 0px;
+    display: flex;
+
+
+  }
+
+
+
+  .second-section__wrapper{
+    display: flex;
+    width:91%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  h3{
+    font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+  }
+  .second-section__text{
+    width:50%;
+  }
+  .second-section__title{
+    margin: 55px 0 0 0;
+    color: white;
+
+  }
+  .second-section__subtitle{
+    font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+    margin: 24px auto 0 0;
+    width:95%;
+    color: white;
+  }
+
+  .second-section__characteristics{
+    width:40%;
+    margin:66px 0 0 0;
+    height:256px;
+
+  }
+
+  .wifi {
+    margin: 25px 0 0 0px;
+    width: 232px;
+    height: 64px;
+    display: flex;
+}
+.battery {
+    margin: 37px 0 0 0px;
+    width: 225px;
+    height: 59px;
+    display: flex;
+}
+  .second-section__buttons{
+    margin: 7.8% auto 0 auto;
+    display: flex;
+    width:60%;
+    height:40px;
+    justify-content: space-between;
+  }
+
+  .second-section__learn{
+    width:50%;
+    display: flex;
+  }
+
+  .second-section__learn-logo{
+    width:31.18px;
+    height:31.18px;
+    background: url('img/learn.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 11px;
+    margin-right: 12px;
+  }
+
+  .second-section__learn-text{
+    font: 700 16px/19.5px 'montserrat', arial, helvetica, sans-serif;
+    color: white;
+  }
+
+  .second-section__order{
+    width:48%;
+    margin-right: 0;
+    height:55px;
+    border: 2px solid #FFFFFF;
+    font: 700 16px/19.5px 'montserrat', arial, helvetica, sans-serif;
+    background-color: #E51937;
+    color:white
+  }
+
+
+  .third-section{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+  }
+  .third-section__info{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:487.21px;
+  }
+
+  .third-section__wrapper{
+    display: flex;
+    width:91%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+.third-section__text{
+  display: flex;
+  flex-direction: column;
+  width:52%;
+}
+  .third-section__title{
+    margin: 18% 0 0 0;
+    color: white;
+  }
+
+  .third-section__subtitle{
+    font: 500 15px/18.29px 'montserrat', arial, helvetica, sans-serif;
+    color: white;
+    width:90%;
+    margin-top: 13px;
+  }
+
+  .third-section__safety{
+    width: 45%;
+    margin:2% 0 0 4%;
+  }
+
+  h2{
+    font: 600 30px/36.57px 'montserrat', arial, helvetica, sans-serif;
+  }
+
+  .safety__title{
+    margin: 16% 0 0 0;
+    color:white;
+  }
+
+  .safety__text{
+    font: 700 17px 'montserrat', arial, helvetica, sans-serif;
+    color: white;
+  }
+
+
+  .safety__characteristics{
+    width: 100%;
+    height: 200px;
+    margin: 9% 0 0 0;
+  }
+
+  .front{
+    width: 100%;
+    height: 25px;
+    margin: 13px 0 0 0;
+    display: flex;
+  }
+
+  .front__text{
+    margin: 0 62px 0 0;
+  }
+  .front__stars{
+    width:145px;
+    height:25px;
+    margin: 0;
+    display: flex;
+  }
+
+  .star{
+    width:25px;
+    height:25px;
+    background: url('img/star.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+  }
+
+  .side{
+    width: 100%;
+    height: 25px;
+    margin: 11px 0 0 0;
+    display: flex;
+  }
+
+  .side__text{
+    margin: 2px 87px 0 0;
+  }
+
+  .side__stars{
+    width:145px;
+    height:25px;
+    margin: 0;
+    display: flex;
+  }
+
+  .side-stand{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0 0 0;
+    display: flex;
+  }
+
+  .side-stand__text{
+    margin: 2px 31px 0 0;
+    width: 120px;
+  }
+
+  .side-stand__text-stand{
+    font: 700 10px/12.19px 'montserrat', arial, helvetica, sans-serif;
+  }
+
+  .side-stand__stars{
+    width:145px;
+    height:25px;
+    margin: 0;
+    display: flex;
+  }
+  .driver{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0 0 0;
+    display: flex;
+  }
+
+  .driver__text{
+    margin: 2px 48px 0 0;
+  }
+
+
+  .driver__stars{
+    width:145px;
+    height:25px;
+    margin: 0;
+    display: flex;
+  }
+
+  .passenger{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0 0 0;
+    display: flex;
+  }
+
+  .passenger__text{
+    margin: 2px 42px 0 0;
+  }
+
+
+  .passenger__stars{
+    width:145px;
+    height:25px;
+    margin: 0;
+    display: flex;
+  }
+
+  .third-section__shield{
+
+    display: none;
+
+  }
+
+  .third-section__buttons{
+    width:60%;
+    height:55px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .third-section__learn{
+    width:50%;
+    display:flex;
+  }
+  .third-section__learn-logo{
+    width: 31px;
+    height: 31px;
+    background: url('img/learn.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 13px 13px 0 0;
+
+  }
+  .third-section__learn-text{
+    font: 700 16px/25.5px 'montserrat', arial, helvetica, sans-serif;
+    color: white;
+  }
+
+  .third-section__order{
+    font: 700 16px/19.5px 'montserrat', arial, helvetica, sans-serif;
+    width: 48%;
+    background-color:#E51937;
+    color: white;
+    border-radius: 0;
+    border: 2px solid white;
+  }
+
+  .third-section__image{
+    width: 100%;
+    height: 538px;
+  }
+
+  .third-section__image-title{
+    font: 600 148px/256px 'montserrat', arial, helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    left: 83px;
+    width:608px;
+    color:#E51937;
+    opacity: 0.1;
+    z-index: 3;
+  }
+
+  .third-section__image-photo{
+    position:relative;
+    width:734px;
+    height:425px;
+    background: url('img/car-safety768.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    left:-16px;
+    top: -191px;
+    margin: auto;
+
+  }
